@@ -92,11 +92,10 @@ complete object detection pipelines applied to real images.
 ![Mask Example](assets/task2/runnigprocesst2.png)
 
 **Detected Card Masks**
-```
-assets/task2/output_mask_1.png
-assets/task2/output_mask_2.png
-```
+task2/output_mask_2.png
+
 ![Detected Cards](assets/task2/output1_mask_canny.png)
+
 ![Detected Cards](assets/task2/outputT2.png)
 
 ---
@@ -105,16 +104,24 @@ assets/task2/output_mask_2.png
 
 **Input**
 
-![Selected Frame 1](assets/task3/real.jpg)
-![Selected Frame 2](assets/task3/frame2.png)
-![All frames](assets/task3/T3inputsAllFrames.png)
+
+| Input Sample 1 | Input Sample 2 |
+|---------------|---------------|
+| ![](assets/task3/real.jpg) | ![](assets/task3/frame2.png) |
+
+**All Input Frames**
+
+![](assets/task3/T3inputsAllFrames.png)
 
 
-**Output (Color‑coded Shapes)**
 
-![Selected Output Frame 1](assets/task3/sample_output_24_40.png)
-![Selected Output Frame 2](assets/task3/sample_output_25_15.png)
-![All Output frames](assets/task3/T3outputsAllFrames.png)
+| Output Sample 1 | Output Sample 2 |
+|----------------|----------------|
+| ![](assets/task3/sample_output_24_40.png) | ![](assets/task3/sample_output_25_15.png) |
+
+**All Output Frames**
+
+![](assets/task3/T3outputsAllFrames.png)
 
 > The outputs highlight detected contours and their inferred geometric class.
 
@@ -128,7 +135,7 @@ assets/task2/output_mask_2.png
 ├── Task2/                 # Card detection & segmentation
 ├── Task3/                 # Geometric shape detection
 ├── README.md
-└── requirements.txt       # OpenCV, NumPy, Matplotlib
+├── requirements.txt       # OpenCV, NumPy, Matplotlib
 └── assets/                # Input images and output masks for Task 2 and Task 3
 
 ```
